@@ -2,3 +2,12 @@
 Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa da un data. :cornice_con_disegno:
 */
+
+
+const app =new Vue({
+        el:'#root',
+        data: {
+            message:'ciao mondo'
+        }
+    }
+);
