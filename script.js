@@ -1,13 +1,17 @@
-/*Stampare a schermo un messaggio all’interno di un h1, utilizzando i data. :bongo_blob:
+/*Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
+
+
 Bonus:
-Aggiungere alla pagina un’immagine, presa anch’essa da un data. :cornice_con_disegno:
+Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 */
 
 
-const app =new Vue({
+const app = new Vue({
         el:'#root',
         data: {
-            message:'ciao mondo'
+            message:'ciao mondo',
+            image: "https://picsum.photos/200",
+            classi: "text-center",
         }
     }
 );
